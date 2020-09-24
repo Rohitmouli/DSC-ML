@@ -1,0 +1,15 @@
+thiller=["Dark","inception","parasite","interstellar","raath akeli hai,"goodachari","pink","badla","batla house"]
+comedy=["friends","3 idiots","kirik party","brooklyn 99","rama shama bhama","googly","good news","housefull"]
+opt=str(input("Enter the movie:"))
+a=false
+for i in thriller:
+  if(pot.lower()==i.lower()):
+    print("It is a thriller")
+    a=true
+    for j in comedy:
+    if(opt.lower()==j.lower()):
+    print("its a comedy movie")
+    a=true
+    if(a==false):
+    print("its neither comedy nor thiller")
+    
